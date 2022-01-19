@@ -43,9 +43,13 @@ python3 -m venv .venv
 
 source .venv/bin/activate
 
+9). Update pip in the virtual environment: 
+python -m pip install --upgrade pip
+
+10). Install all the required packages for the application:
+pip install -r requirements.txt
 
 
-Open up command prompt and install flask 
 Just type in: pip install flask
 Install flask-login
 Pip install flask-login

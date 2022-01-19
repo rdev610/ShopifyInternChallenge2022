@@ -11,12 +11,10 @@ Once logged in the user can add, delete, read, and  update the products in the a
 
 2). Install the Python extension on Visual Studio Code. You can either go to the [link or](https://marketplace.visualstudio.com/items?itemName=ms-python.python) directly add in VS code by clikcing on extnesions in the toolbar and searhcing for Python
 
-3). Install a version of Python 3. 
-Options include:
-(All operating systems) A download from python.org;
-(Linux) The built-in Python 3 installation works well, but to install other Python packages you must run sudo apt install python3-pip in the terminal.
-(macOS) An installation through Homebrew on macOS using brew install python3 (the system install of Python on macOS is not supported).
-On Windows, make sure the location of your Python interpreter is included in your PATH environment variable. You can check the location by running path at the command prompt. If the Python interpreter's folder isn't included, open Windows Settings, search for "environment", select Edit environment variables for your account, then edit the Path variable to include that folder.
+3). Install a version of [Python 3](https://www.python.org/downloads/) specfic to your computer's operating system. 
+
+4). Dowload this repository by clicking on code and then download ZIP. Once the folder is downlaoded, unzip the file.  
+
 Download the repository and unzip the folder
 Open the folder in VS Code using the Open Folder option under File on the top left of VS Code and select the folder.
 Open a new terminal using the New Terminal option under Terminal on the top left of VS Code.

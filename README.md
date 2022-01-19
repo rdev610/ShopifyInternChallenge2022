@@ -44,6 +44,9 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 
+
+
+
 9). Update pip in the virtual environment by running the following command prompt: 
 python -m pip install --upgrade pip
 

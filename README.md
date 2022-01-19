@@ -19,7 +19,32 @@ Once logged in the user can add, delete, read, and  update the products in the a
 
 6). Open a new terminal by clicking on Terminal (top left) and then on New Terminal.  
 
-7). Open up command prompt 
+7). Open up command prompt and the cnage the dreictory until you are in the correct folder. 
+
+8). Create a virtual envrionment by running the following command prompts. 
+
+## Windows
+
+py -3 -m venv .venv
+
+.venv\scripts\activate
+
+## macOS
+
+python3 -m venv .venv
+
+source .venv/bin/activate
+
+## Linux
+
+sudo apt-get install python3-venv # If needed
+
+python3 -m venv .venv
+
+source .venv/bin/activate
+
+
+
 Open up command prompt and install flask 
 Just type in: pip install flask
 Install flask-login

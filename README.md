@@ -43,20 +43,18 @@ python3 -m venv .venv
 
 source .venv/bin/activate
 
-9). Update pip in the virtual environment: 
+9). Update pip in the virtual environment by running the following command prompt: 
 python -m pip install --upgrade pip
 
-10). Install all the required packages for the application:
+10). Install all the required packages for the application by running the following command prompt:
 pip install -r requirements.txt
 
+11). Go back to Visual Studio Code and open up the main.py file
 
-Just type in: pip install flask
-Install flask-login
-Pip install flask-login
-Install flask-sqlalchemy
-Pip install flask-sqlalchemy
-Click on main.py file
-Then click on the run button (looks like the play button)
-This will open a link in your VS code terminal 
-Click on the link to open up the web application!
+12). click on the run button (looks like the play button)
+
+13). In the Visual Code terminal a link will be shown. Click on the link to open up the web application and start exploring!
+
+<img width="269" alt="Screenshot 2022-01-19 183412" src="https://user-images.githubusercontent.com/97998450/150235289-2eead31c-3c4b-4d25-a62e-554a0ee2988f.png">
+
 

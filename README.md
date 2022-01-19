@@ -23,19 +23,19 @@ Once logged in the user can add, delete, read, and  update the products in the a
 
 8). Create a virtual envrionment by running the following command prompts. 
 
-## Windows
+### Windows
 
 py -3 -m venv .venv
 
 .venv\scripts\activate
 
-## macOS
+### macOS
 
 python3 -m venv .venv
 
 source .venv/bin/activate
 
-## Linux
+### Linux
 
 sudo apt-get install python3-venv # If needed
 

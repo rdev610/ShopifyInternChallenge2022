@@ -4,14 +4,15 @@ This is a web application that tracks the inventory for a logistics company.
 
 To use the application the user must sign-up/login first. 
 
-Once logged in the user can add, delete, read, and  update the products in the application. The user can also press a button that wille xport the product data into a CSV file.  
+Once logged in the user can add, delete, read, and  update the products in the application. The user can also press a button that will export the product data into a CSV file.  
 
 ## To run the app locally
-Download and install [Visual Studio Code](https://code.visualstudio.com/) if you do not already have Visual Studio Code. 
+1). Download and install [Visual Studio Code](https://code.visualstudio.com/) if you do not already have Visual Studio Code. 
 
+2). Install the Python extension on Visual Studio Code. You can either go to the [link or](https://marketplace.visualstudio.com/items?itemName=ms-python.python) directly add in VS code by clikcing on extnesions in the toolbar and searhcing for Python
 
-Install the Python extension on Visual Studio Code. You can either go to the link or directly add in your VS code:
-Install a version of Python 3. Options include:
+3). Install a version of Python 3. 
+Options include:
 (All operating systems) A download from python.org;
 (Linux) The built-in Python 3 installation works well, but to install other Python packages you must run sudo apt install python3-pip in the terminal.
 (macOS) An installation through Homebrew on macOS using brew install python3 (the system install of Python on macOS is not supported).

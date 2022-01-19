@@ -1,6 +1,6 @@
 # Shopify Backend Summer Internship Challenge 2022
-#ABOUT 
-#Inventory tracking app for a logistics company
+##ABOUT 
+Inventory tracking app for a logistics company
 User need to sign-up/login first 
 Can add, delete, update, and read the products in the app
 User can also push a button that will export the product data into a CSV file

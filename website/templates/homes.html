@@ -1,0 +1,36 @@
+@views.route('/')
+def upload_form():
+	return render_template('file.html')
+
+@views.route('/upload-file', methods=['POST'])
+def upload_image():
+    if 'file' not in request.files:
+        flash('No file part')
+        return redirect(request.url)
+    file = request.files['file']
+    if file.filename == '':
+        flash('No image selected for uploading')
+        return redirect(request.url)
+    if file and allowed_file(file.filename):
+        filename = secure_filename(file.filename)
+        file.save(os.path.join(views.config['media'], filename))
+        flash('Image successfully uploaded and displayed below')
+        return render_template('file.html', filename=filename)
+    else:
+        flash('Allowed image types are -> png, jpg, jpeg, gif')
+        return redirect(request.url)
+
+@views.route('/display/<filename>')
+def display_image(filename):
+	return redirect(url_for('home', filename='uploads/' + filename), code=301)
+
+
+
+    si = StringIO()
+    cw = csv.writer(si)
+    records = Product.query.all()   
+    cw.writerows([(r.name, r.category, r.count, r.description) for r in records])
+    response = make_response(si.getvalue())
+    response.headers['Content-Disposition'] = 'attachment; filename=report.csv'
+    response.headers["Content-type"] = "text/csv"
+    return render_template("home.html", user = current_user, response = response)

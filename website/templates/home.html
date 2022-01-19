@@ -1,0 +1,48 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+    %}
+    <h1 align="center">Products</h1>
+
+      <ul class="list-group my-5">
+        <li class="list-group-item">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-sm-2">Name</div>
+              <div class="col-sm-2">Category</div>
+              <div class="col-sm-2">Count</div>
+              <div class="col-sm-2">Description</div>
+              <div class = "col-sm-1">Action</div>
+            </div>
+          </div>
+        </li>
+        {% for product in products %}
+        <li class="list-group-item">
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href={{url_for('auth.update_product', variable=product.id)}} class="btn btn-primary btn-lg active" role="button" aria-pressed="true">{{product.name}}</a>
+                </div>
+                <div class="col-sm-2">{{product.category}}</div>
+                <div class="col-sm-2">{{product.count}}</div>
+                <div class="col-sm-2">{{product.description}}</div>
+                <div class = "col-sm-1">
+                        {{ product.data }}
+                        <button type="button" class="close" onClick="deleteProduct({{ product.id }})">
+
+                            Delete
+                          </button>
+                </div>
+            </div>
+            </div>
+        </li>
+        {%endfor%}
+      </ul>
+    <br />
+    <form action = "{{url_for('views.export_to_csv')}}">
+        <input type ="submit" value = "Export to CSV"/>
+    </form>
+        
+
+ 
+
+    {% endblock %}

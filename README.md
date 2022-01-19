@@ -11,13 +11,15 @@ Once logged in the user can add, delete, read, and  update the products in the a
 
 2). Install the Python extension on Visual Studio Code. You can either go to the [link or](https://marketplace.visualstudio.com/items?itemName=ms-python.python) directly add in VS code by clikcing on extnesions in the toolbar and searhcing for Python
 
-3). Install a version of [Python 3](https://www.python.org/downloads/) specfic to your computer's operating system. 
+3). Install a version of [Python 3](https://www.python.org/downloads/) specific to your computer's operating system. 
 
 4). Dowload this repository by clicking on code and then download ZIP. Once the folder is downlaoded, unzip the file.  
 
-Download the repository and unzip the folder
-Open the folder in VS Code using the Open Folder option under File on the top left of VS Code and select the folder.
-Open a new terminal using the New Terminal option under Terminal on the top left of VS Code.
+5). Open the folder in Visual Studio Code by clicking on File (on the top left), and then click on open folder and select the folder
+
+6). Open a new terminal by clicking on Terminal (top left) and then on New Terminal.  
+
+7). Open up command prompt 
 Open up command prompt and install flask 
 Just type in: pip install flask
 Install flask-login

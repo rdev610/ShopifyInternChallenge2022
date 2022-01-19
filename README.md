@@ -1,11 +1,15 @@
 # Shopify Backend Summer Internship Challenge 2022
 ## ABOUT 
 This is a web application that tracks the inventory for a logistics company.
+
 To use the application the user must sign-up/login first. 
-Once logged in the user can add, delete, read, adn update the products in the application. The user can also press a button that wille xport the product data into a CSV file.  
+
+Once logged in the user can add, delete, read, and  update the products in the application. The user can also press a button that wille xport the product data into a CSV file.  
 
 ## To run the app locally
-Download and install Visual Studio Code
+Download and install [Visual Studio Code](https://code.visualstudio.com/) if you do not already have Visual Studio Code. 
+
+
 Install the Python extension on Visual Studio Code. You can either go to the link or directly add in your VS code:
 Install a version of Python 3. Options include:
 (All operating systems) A download from python.org;

@@ -21,7 +21,7 @@ Once logged in the user can add, delete, read, and  update the products in the a
 
 7). Open up command prompt and the cnage the dreictory until you are in the correct folder. 
 
-8). Create a virtual envrionment by running the following command prompts. 
+8). Create a [virtual envrionment](https://docs.python.org/3/library/venv.html) by running the following command prompts. 
 
 ### Windows
 

@@ -1,0 +1,52 @@
+{% extends "base.html" %} {% block title %}Sign Up{% endblock %} {% block
+    content %}
+    <form method="POST">
+      <h3 align="center">Update Product</h3>
+      <div class="form-group">
+          {{products.data}}
+        <label for="name">Name of Product</label>
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          name="name"
+          placeholder={{products.name}}
+        />
+      </div>
+      <div class="form-group">
+        {{products.data}}
+        <label for="category">Category of product</label>
+        <input
+          type="text"
+          class="form-control"
+          id="category"
+          name="category"
+          placeholder={{products.category}}
+        />
+      </div>
+      <div class="form-group">
+        {{products.data}}
+        <label for="count">Count</label>
+        <input
+          type="number"
+          class="form-control"
+          id="count"
+          name="count"
+          placeholder={{products.count}}
+        />
+      </div>
+      <div class="form-group">
+        {{products.data}}
+        <label for="description">Description</label>
+        <input
+          type="text"
+          class="form-control"
+          id="description"
+          name="description"
+          placeholder={{products.description}}
+        />
+      </div>
+      <br />
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    {% endblock %}
